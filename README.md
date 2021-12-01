@@ -9,3 +9,6 @@ CircAST2 need a pair-ended sequencing SAM file by Hisat2,circRNA junction TXT fi
 The running parameters are as follows：
 
 python CircAST2.py -L (reads length) -T(threshold) -G (gtf file) -I (input SAM file) -J (circRNA junction list file) -F(genome fasta file path) -S (StringTieDir)
+
+
+Circast2-sim is a whole-transcriptome simulation sequencing data generation tool,Users are required to provide three input files, which are respectively the annotation file in GTF format, the reference genome sequence file in FASTA format and the circular RNA list information file in TXT format.
